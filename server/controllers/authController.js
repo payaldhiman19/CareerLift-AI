@@ -1,4 +1,3 @@
-
 const User=require('../models/User');
 const bcrypt = require("bcryptjs");
 const generateToken = require("../utils/generateToken");
@@ -85,5 +84,7 @@ const loginUser=async(req,res)=>{
             });
         }
     };
-
-module.exports={registerUser,loginUser};
+const getProfile=async(req,res)=>{
+    res.status(200).json({success:true,user:req.user});
+};
+module.exports={registerUser,loginUser,getProfile};

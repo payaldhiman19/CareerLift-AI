@@ -18,6 +18,10 @@ const userSchema = new mongoose.Schema(
       required: true,
       minlength: 6,
     },
+    targetRole: {
+        type: String,
+        required: true,
+    },
     skills: {
       type: [String],
       default: [],
