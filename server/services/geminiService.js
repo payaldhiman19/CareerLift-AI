@@ -104,8 +104,7 @@ const text = response.text
     .replace(/```json/g, "")
     .replace(/```/g, "")
     .trim();
-
-console.log("Questions Response:");
+console.log("Gemini Questions Response:");
 console.log(text);
 
 return JSON.parse(text);
@@ -236,8 +235,6 @@ Return EXACTLY this format:
             .replace(/```/g, "")
             .trim();
 
-        console.log("Gemini Response:");
-        console.log(text);
 
         return JSON.parse(text);
 

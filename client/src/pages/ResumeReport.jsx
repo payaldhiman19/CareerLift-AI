@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import api from "../services/api";
 import Navbar from "../components/Navbar";
-import { Link, useParams } from "react-router-dom";
+import {  useParams } from "react-router-dom";
 
 function ResumeReport() {
 
@@ -159,16 +159,7 @@ function ResumeReport() {
                     </ul>
 
                 </div>
-                  <div className="mt-10 flex justify-center">
 
-    <Link
-        to={`/interview/${resume._id}`}
-        className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-lg text-lg font-semibold"
-    >
-        🎯 Generate Interview Questions
-    </Link>
-
-</div>
             </div>
 
         </div>

@@ -8,7 +8,7 @@ function Footer() {
 
                 <div>
                     <h2 className="text-2xl font-bold text-blue-400">
-                        CareerForge AI
+                        CareeLift AI
                     </h2>
 
                     <p className="mt-4 text-gray-300">
@@ -64,7 +64,7 @@ function Footer() {
 
             <div className="border-t border-gray-700 py-5 text-center text-gray-400">
 
-                © 2026 CareerForge AI. All rights reserved.
+                © 2026 CareerLift AI. All rights reserved.
 
             </div>
 

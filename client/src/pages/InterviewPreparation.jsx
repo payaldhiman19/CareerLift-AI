@@ -38,6 +38,7 @@ const role = searchParams.get("role");
         try {
 
             const data = await getInterviewQuestions(id,role);
+            console.log("Questions API Response:", data);
 
             setQuestions({
               technical: data?.questions?.technical || [],

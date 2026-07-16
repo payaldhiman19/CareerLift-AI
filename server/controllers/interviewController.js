@@ -11,14 +11,8 @@ const getInterviewQuestions = async (req, res) => {
 
     try {
 
-        console.log("Params:", req.params);
-        console.log("Query:", req.query);
-
         const { resumeId } = req.params;
         const role = req.query.role;
-
-        console.log("Resume ID:", resumeId);
-        console.log("Target Role:", role);
 
         const resume = await Resume.findById(resumeId);
 
@@ -34,6 +28,8 @@ const getInterviewQuestions = async (req, res) => {
             role
         );
 
+              console.log("Generated Questions:");
+              console.log(questions);
         res.status(200).json({
             success: true,
             questions

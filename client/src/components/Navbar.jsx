@@ -22,7 +22,7 @@ function Navbar() {
                     to="/"
                     className="text-2xl font-bold text-indigo-600"
                 >
-                    CareerForge AI 🚀
+                    CareerLift AI 🚀
                 </Link>
 
                 <div className="flex items-center gap-8">

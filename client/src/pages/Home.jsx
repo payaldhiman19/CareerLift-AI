@@ -13,7 +13,7 @@ function Home() {
       <nav className="flex justify-between items-center px-10 py-5 bg-white shadow">
 
         <h1 className="text-3xl font-bold text-blue-600">
-          CareerForge AI
+          CareerLift AI
         </h1>
 
         <div className="space-x-4">
