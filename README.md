@@ -11,11 +11,3 @@ An AI-powered placement preparation platform that helps students analyze resumes
 - JWT
 - AI Integration (Coming Soon)
 
-## Features
-
-- User Authentication
-- Resume Upload
-- Resume Analysis
-- Skill Gap Detection
-- AI Roadmap Generator
-- Progress Tracking
