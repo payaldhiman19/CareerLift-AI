@@ -54,13 +54,17 @@ CareerLift-AI is an AI-powered resume analysis platform that helps students impr
 
 ## 📸 Screenshots
 <img width="1862" height="870" alt="image" src="https://github.com/user-attachments/assets/ca725479-f8d6-4cc2-ab51-173b9fde6e49" />
+
 #
 
 <img width="857" height="683" alt="image" src="https://github.com/user-attachments/assets/92560e69-0ef0-4ddd-9832-0adb660b3e79" />
+
 #
 <img width="1296" height="798" alt="image" src="https://github.com/user-attachments/assets/64c7c86c-1679-4625-b4bb-503481baf992" />
+
 #
 <img width="1416" height="897" alt="image" src="https://github.com/user-attachments/assets/92d8655c-2d9b-42be-a975-6f37fca57dc2" />
+
 #
 <img width="1182" height="697" alt="image" src="https://github.com/user-attachments/assets/40e63ef9-e3ef-4cc4-a163-a476215f1c48" />
 
